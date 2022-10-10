@@ -59,8 +59,8 @@ class Cars
         $this->carEnergy=$carEnergy;
     }
 
-    public function carForward($speed): string{
-        $this->currentCarSpeed = $speed;
+    public function carForward($carSpeed): string{
+        $this->currentCarSpeed = $carSpeed;
         return "Go !";
     }
     
@@ -72,6 +72,17 @@ class Cars
        }
        $sentence .= "I'm stopped !";
        return $sentence;
+    }
+
+    public function carStart()
+    {
+        $this->currentCarSpeed = 0;
+        $sentence= "";
+        while ($this->currentCarSpeed <= 0) {
+            $this->currentCarSpeed++;
+            $sentence .= "Let's start this car";
+        }
+        return $sentence;
     }
 
     public function getCurrentCarSpeed(): int
