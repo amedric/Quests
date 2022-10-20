@@ -3,6 +3,6 @@
 require '../vendor/autoload.php';
 include '../src/Wcs/Hello.php';
 
-use message as helloWorld;
+use App\Hello;
 
-echo helloWorld\Hello::talk();
+echo Hello::talk();
