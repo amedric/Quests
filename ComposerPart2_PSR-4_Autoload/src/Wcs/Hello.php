@@ -1,3 +1,3 @@
-<?php namespace message;
+<?php namespace App;
   class Hello {
     static function talk() {echo 'Hello World!';}  } ?>
