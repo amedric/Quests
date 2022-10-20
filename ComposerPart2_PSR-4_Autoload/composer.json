@@ -1,0 +1,16 @@
+{
+    "name": "andyr/composer-part2",
+    "description": "Quest composer",
+    "autoload": {
+        "psr-4": {
+            "Andyr\\ComposerPart2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amedric",
+            "email": "andyricana@hotmail.com"
+        }
+    ],
+    "require": {}
+}
