@@ -5,6 +5,7 @@ require_once 'Bicycle.php';
 require_once 'Truck.php';
 
 $car = new Car('green', 4, 'electric');
+$car->setHasParkBrake(true);
 
 try {
     $car->start();
