@@ -18,7 +18,7 @@ class Car extends Vehicle
     public function start()
     {
         if ($this->hasParkBrake === true) {
-            throw new Exception ('You forgot the handbrake');
+            throw new Exception ('Handbrake is on!');
         }
         $this->Forward();
 
