@@ -12,5 +12,5 @@ try {
     echo $e->getMessage().'<br>';
     $car-> setParkBrake((false));
 } finally {
-    echo 'Ma voiture roule comme un donut';
+    echo 'My car is driving like a donut';
 }
