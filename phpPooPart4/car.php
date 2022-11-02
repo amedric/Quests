@@ -20,7 +20,7 @@ class Car extends Vehicle
         if ($this->hasParkBrake === true) {
             throw new Exception ('You forgot the handbrake');
         }
-        $this->goForward();
+        $this->Forward();
 
     }
 }
